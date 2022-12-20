@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Pessoa from './components/Pessoa'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <Pessoa nome="Francisco" idade="78" profissao="carpinteiro" foto="https://via.placeholder.com/150"/>
   </React.StrictMode>
 );
 
