@@ -37,7 +37,7 @@ function Form() {
             placeholder="Digite sua senha"
             onChange={(e) => setPassword(e.target.value)}
           />
-        </div>
+        </div> 
         <div>
           <input type="submit" value="Cadastrar" />
         </div>
