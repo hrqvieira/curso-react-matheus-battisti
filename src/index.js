@@ -9,7 +9,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Pessoa nome="Francisco" idade="78" profissao="carpinteiro" foto="https://via.placeholder.com/150"/>
   </React.StrictMode>
 );
 
